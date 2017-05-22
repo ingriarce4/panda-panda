@@ -1,3 +1,105 @@
-{
-	background: # 
+body {
+	margin: 0;
+    background-color: #42382e ; 
+}
+
+nav {
+	background-color: #f72d61;
+	margin: 0 0 20px 0;
+	padding: 0px 0px 0px 80px;
+	overflow: hidden;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#ffffa8;
+	padding: 26px;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #ffffff;
+	color: #b31d83;
+}
+
+/*Fotos de los Panda*/
+
+.pandasf{
+	margin: 0 auto;
+	width: 60%;
+	
+}
+
+.fotot1 {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/5b/23/37/5b2337b62f8ec4b6bd3226d8b5b50e38.jpg");
+}
+.fotot2 {
+	background-image: url("imagenes/panda1.jpg");
+}
+.fotot3 {
+	background-image: url(../imagenes/panda2.jpg);
+}
+.fotot4 {
+	background-image: url(../imagenes/panda3.jpg);
+}
+.fotot-cada-uno{
+	display: inline-block;
+	padding: 60px 65px;
+	margin: 40px 20px;
+}
+
+.desaparecepanda {
+	display: none;
+}
+
+.fotot-cada-uno a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #f5cb11;
+}
+
+
+/*Seccion de pequeño; Nav*/
+
+.peque-nav {
+	background-color: #f72d61;
+	width: 909px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.peque-nav a {
+	display: inline-block;
+	color: 	#ffffa8;
+	padding: 26px 0;
+	width: 300px;
+	text-align: center;
+}
+
+.peque-nav a:hover {
+	background-color: #f09102;
+	color: #b31d83;
+} 
+
+/*Seccion texto*/
+.letraspanda {
+	width: 909px;
+	margin: 0 auto;
+}
+
+.letraspanda p {
+	
+	margin-top: 50px;
+}
+
+.izquierda {
+	float: left;
+	width: 47%;
+	text-align: justify;
+}
+
+.derecha {
+	float: right;
+	width: 47%;
+	text-align: justify;
 }
